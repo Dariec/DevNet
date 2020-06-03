@@ -1,0 +1,9 @@
+!
+service timestamps debug datatime msec localtime show-timezone year
+service timestamps log datetime msec localtime show-timezone year
+service password-encryption
+service sequence-number
+!
+no ip domail lookup
+!
+ip ssh version 2
